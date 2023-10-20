@@ -1,8 +1,4 @@
 {
-   "connectionOverride": 
-    [
-      {"connection": "Admin", "username": "ProvarDX"}
-    ],
     "provarHome":"/home/runner/work/sfdx-provar/sfdx-provar/ProvarHome",
     "projectPath":"/home/runner/work/sfdx-provar/sfdx-provar/TrialGuide",
     "resultsPath":"/home/runner/work/sfdx-provar/sfdx-provar/TrialGuide/ANT/Results",
@@ -19,14 +15,14 @@
     },
     "testprojectSecrets": "ProvarSecretsPassword", 
     "environment":{
-      "testEnvironment":"",
+      "testEnvironment":"UAT",
       "webBrowser":"Chrome",
       "webBrowserConfig":"Full Screen",
       "webBrowserProviderName":"Desktop",
       "webBrowserDeviceName":"Full Screen"
     },
     "testPlan":[
-       "Regression Plan"
+       "Smoke Testing"
     ],
     "testplanFeatures": [
        {"name": "PDF", "type": "OUTPUT", "enabled": "true"},

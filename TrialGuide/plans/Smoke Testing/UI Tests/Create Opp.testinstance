@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testPlanInstance guid="c1d1b8af-56fd-4bc7-ad45-5fb4d47d8e3a" testCasePath="tests/Lesson 1/Create Opp.testcase">
-  <planSettings/>
-  <planFeatures/>
-  <associations>
-    <association assocationType="TM.TEST_SUITE_CASE" connectionId="31c92433-7959-4a38-8c84-592b78238125" entityKey="a0f2o00002WIAKhAAP"/>
-  </associations>
-</testPlanInstance>

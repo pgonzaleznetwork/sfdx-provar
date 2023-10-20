@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testCase guid="6ac5b07b-59de-40f8-98bb-c73775d9bc15" id="14">
+<testCase guid="6ac5b07b-59de-40f8-98bb-c73775d9bc15" id="0">
   <summary/>
   <steps>
     <apiCall apiId="com.provar.plugins.forcedotcom.core.testapis.ApexConnect" guid="2756bf1e-769d-4d1e-a24e-308f2dd1a2f3" name="ApexConnect" testItemId="1" title="Salesforce Connect: Admin (Test)">
@@ -139,7 +139,7 @@
             <path element="Phone"/>
           </expected>
         </resultAssertion>
-        <resultAssertion resultName="Email" title="Check Email">
+        <resultAssertion caseInsensitive="true" resultName="Email" title="Check Email">
           <expected class="variable">
             <path element="Email"/>
           </expected>
@@ -261,6 +261,6 @@
     </argument>
   </args>
   <associations>
-    <association assocationType="TM.TEST_CASE" connectionId="31c92433-7959-4a38-8c84-592b78238125" entityKey="a0R2o00000fJsHKEA0" lastUploadedDateTime="2023-10-17T12:41:47Z"/>
+    <association assocationType="TM.TEST_CASE" connectionId="31c92433-7959-4a38-8c84-592b78238125" entityKey="a0R2o00000fJsHKEA0" lastModifiedDateTime="2023-10-20T10:45:50Z" lastUploadedDateTime="2023-10-17T12:41:47Z"/>
   </associations>
 </testCase>

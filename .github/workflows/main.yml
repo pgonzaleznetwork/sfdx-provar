@@ -7,7 +7,7 @@ name: Regression
 on:
   workflow_dispatch:
   pull_request:
-    branches: [ master ]
+    branches: [ uat ]
     types:
       - labeled
       - unlabeled
@@ -21,7 +21,7 @@ on:
     types:
       - submitted
   push:
-    branches: [ master ]
+    branches: [ uat ]
   repository_dispatch:
     types: [api_trigger]
 
