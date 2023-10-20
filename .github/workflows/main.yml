@@ -107,9 +107,9 @@ jobs:
             retention-days: 14 # optional
     test_results:
       name: "Publish Test Results"
-      needs: linux_regression
+      needs: run_provar_tests
       runs-on: ubuntu-latest
-      # the linux_regression job might be skipped, we don't need to run this job then
+      # the run_provar_tests job might be skipped, we don't need to run this job then
       if: success() || failure()
       steps:
         - name: Download Artifacts
