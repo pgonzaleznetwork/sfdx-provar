@@ -109,6 +109,9 @@ jobs:
       name: "Publish Test Results"
       needs: run_provar_tests
       runs-on: ubuntu-latest
+      permissions:
+        checks: write
+        pull-requests: write
       # the run_provar_tests job might be skipped, we don't need to run this job then
       if: success() || failure()
       steps:
@@ -120,7 +123,6 @@ jobs:
         - name: Publish JUnit Test Results
           uses: EnricoMi/publish-unit-test-result-action@v2
           with:
-        
             check_name: "Provar Regression Test Report"
             # File pattern of test result files
             files: '**/Results/*.xml'
